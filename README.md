@@ -7,6 +7,9 @@ https://github.com/saikiranpi/LetsEncrypt_Free
 ## CLASS -2
 * Under stand IP adress networking and how does it work
 
+![Uploading IP_1.JPG…]()
+
+
 ![IP_adress](https://github.com/user-attachments/assets/46c7e22f-b8b6-49c7-be70-27ae3aad1450)
   
 
