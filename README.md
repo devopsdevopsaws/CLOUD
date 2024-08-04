@@ -8,7 +8,10 @@ https://github.com/saikiranpi/LetsEncrypt_Free
 * Under stand IP adress networking and how does it work
 
 ## CLASS - 3
-* Create vpc and create subnets and attach to internet 
+* Create vpc and create subnets and attach to internet
+
+  
+![vpc](https://github.com/user-attachments/assets/1c1bd972-bc4a-4384-8521-2bb94923ab55)
 
 ## CLASS - 4
 
