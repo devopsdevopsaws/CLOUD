@@ -12,4 +12,4 @@ https://github.com/saikiranpi/LetsEncrypt_Free
 
 ## CLASS - 4
 
-![VPC peering](C:\CLOUD\AWS\vpc_peering.JPG)
+![vpc_peering](https://github.com/user-attachments/assets/3bceb1aa-571e-43f0-bcee-cedf914f6ab8)
