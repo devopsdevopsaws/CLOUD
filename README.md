@@ -45,5 +45,48 @@ sleep 1
 done
 ```
 
+## CLASS -6
+
+*End points*
+
+First achive below 
+create a VPC with public and private subnet and acess the files from the s3 through Internet fom public ec2 instance and internet via natgateway from private instance
+
+
+The disadvantage of above is 
+1. cost
+2. Traffic is going via public
+
+
+**ENDPOINTS**
+-------------
+
+*Gateway Endpoint*
+
+creating gateway endpoint
+endpoint --> services(gateway) --> com.amazonaws.us-east-1.s3 --> select vpc --> Select private subnet 
+
+it will automatecally reflect in the private route table
+
+
+
+*Interface Endpoint*
+
+The scenario is like in session manager you can directly able to acess the ec2 iusntances 
+
+Interface end points
+---------------------
+Create a role with below permissions and assign to instances and restart the instances  then automatically you can able to see the public isntance in sessions manager after restart
+```
+AmazonSSMManagedInstanceCore
+AmazonSSMFullAccess
+```
+
+Go to VPC --> Endpoints --> create below three different endpoints --> private subnet --> select VPC --> SG --> Restart the privare instance ..This will show the instances in session manager
+
+com.amazonaws.us-east-1.ec2messages
+com.amazonaws.us-east-1.ssmmessages
+com.amazonaws.us-east-1.ssm
+
 
 
