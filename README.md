@@ -62,7 +62,7 @@ The disadvantage of above is
 **ENDPOINTS**
 -------------
 
-*Gateway Endpoint*
+**Gateway Endpoint**
 
 creating gateway endpoint
 endpoint --> services(gateway) --> com.amazonaws.us-east-1.s3 --> select vpc --> Select private subnet 
@@ -72,7 +72,7 @@ it will automatecally reflect in the private route table
 ![gateway_endpoint](https://github.com/user-attachments/assets/460f24f3-88b8-4110-acca-694a917796d1)
 
 
-*Interface Endpoint*
+**Interface Endpoint**
 
 The scenario is like in session manager you can directly able to acess the ec2 iusntances 
 
