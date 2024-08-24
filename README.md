@@ -52,6 +52,7 @@ done
 First achive below 
 create a VPC with public and private subnet and acess the files from the s3 through Internet fom public ec2 instance and internet via natgateway from private instance
 
+![endpoint_before](https://github.com/user-attachments/assets/14aafb4a-18b4-454b-b53c-8f4a3c249677)
 
 The disadvantage of above is 
 1. cost
@@ -68,6 +69,7 @@ endpoint --> services(gateway) --> com.amazonaws.us-east-1.s3 --> select vpc -->
 
 it will automatecally reflect in the private route table
 
+![gateway_endpoint](https://github.com/user-attachments/assets/460f24f3-88b8-4110-acca-694a917796d1)
 
 
 *Interface Endpoint*
