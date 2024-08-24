@@ -83,10 +83,10 @@ AmazonSSMFullAccess
 ```
 
 Go to VPC --> Endpoints --> create below three different endpoints --> private subnet --> select VPC --> SG --> Restart the privare instance ..This will show the instances in session manager
-
+```
 com.amazonaws.us-east-1.ec2messages
 com.amazonaws.us-east-1.ssmmessages
 com.amazonaws.us-east-1.ssm
-
+```
 
 
