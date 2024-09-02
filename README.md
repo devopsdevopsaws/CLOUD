@@ -90,5 +90,25 @@ com.amazonaws.us-east-1.ec2messages
 com.amazonaws.us-east-1.ssmmessages
 com.amazonaws.us-east-1.ssm
 ```
+## CLASS -7
 
+**Security groups vs NACL**
+Stateful Firewalls (like AWS Security Groups)
+
+How They Work: Stateful firewalls remember the state of connections. They keep track of all active connections (like a phone call where both parties know they’re talking to each other).
+What This Means: If an incoming request is allowed, the response is automatically allowed. You don’t need to set extra rules for the outgoing response.
+Where Used in AWS: Security Groups are stateful. They’re used to control access to specific servers (instances).
+
+
+Stateless Firewalls (like AWS Network ACLs)
+How They Work: Stateless firewalls treat every packet of data separately, without remembering past connections (like a security guard checking every single package delivered, without knowing the previous deliveries).
+What This Means: You have to create rules for both incoming and outgoing traffic since the firewall doesn’t remember any previous traffic.
+Where Used in AWS: Network ACLs (NACLs) are stateless and used to control traffic at the subnet level (the wider network area).
+
+
+Main Differences
+-----------------
+Stateful Firewalls (Security Groups): Remember connections, need fewer rules, and are good for protecting individual servers.
+Stateless Firewalls (Network ACLs): Don’t remember connections, need more rules, and are good for controlling traffic for larger parts of your network.
+Think of Security Groups as a smart bouncer at a club entrance who recognizes returning guests, while Network ACLs are like airport security that checks every person every time, no matter what.
 
