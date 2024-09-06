@@ -112,7 +112,7 @@ Stateful Firewalls (Security Groups): Remember connections, need fewer rules, an
 Stateless Firewalls (Network ACLs): Don’t remember connections, need more rules, and are good for controlling traffic for larger parts of your network.
 Think of Security Groups as a smart bouncer at a club entrance who recognizes returning guests, while Network ACLs are like airport security that checks every person every time, no matter what.
 
-## CLASS -*
+## CLASS -8*
 
 **NAT GW**
 
