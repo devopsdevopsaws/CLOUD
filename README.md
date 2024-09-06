@@ -120,3 +120,13 @@ In simple terms, a NAT Gateway helps your private network talk to the internet w
 
 ![NATGW](https://github.com/user-attachments/assets/83a37330-8806-4e91-8130-1e9e77ed36be)
 
+## CLASS - 9*
+**TRANIST GW**
+
+VPC Peering is best for small setups where only a few VPCs need to communicate directly.
+Transit Gateway is ideal for larger, more complex environments where many VPCs or on-premises networks need to connect and communicate efficiently.
+
+Go Lab to understand better 
+
+
+
