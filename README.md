@@ -118,3 +118,5 @@ Think of Security Groups as a smart bouncer at a club entrance who recognizes re
 
 In simple terms, a NAT Gateway helps your private network talk to the internet without letting the internet talk back directly, keeping everything inside safe and private.
 
+![NATGW](https://github.com/user-attachments/assets/83a37330-8806-4e91-8130-1e9e77ed36be)
+
