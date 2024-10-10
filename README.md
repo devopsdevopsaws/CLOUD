@@ -128,5 +128,39 @@ Transit Gateway is ideal for larger, more complex environments where many VPCs o
 
 Go Lab to understand better 
 
+## CLASS - 10##
+**Cost-Saving Strategies and Instance Types Explained**
+
+Instance types
+
+1.OnDemand Instance
+2.Reserved Instance
+3.Spot Instance
+4.Launch Template
+
+```
+#!/bin/bash
+yum update -y
+yum install nginx -y
+service nginx start
+systemctl enable nginx
+echo "<h1>$(cat /etc/hostname)</h1>" >> /usr/share/nginx/html/index.html
+
+
+#!/bin/bash
+I=1
+sgids='sg-0db879534883614a1'
+for subnet in 'subnet-0afb48f410583fb34' 'subnet-0bece4d063faced1b' 'subnet-01e2d92c2669abba8'
+do
+    echo "Creating EC2 Instance in $subnet ..."
+    aws ec2 run-instances --instance-type t2.nano --launch-template LaunchTemplateId=lt-027877668eabdf2f4 --security-group-ids $sgids --subnet-id $subnet --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=AWSB28-Server-'${I}'}]' >> /dev/null 2>&1
+    echo "Created EC2 Machine with the name Testserver-${I}"
+    I=$((I+1))
+done
+```
+
+
+
+
 
 
