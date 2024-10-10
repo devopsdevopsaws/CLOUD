@@ -128,6 +128,9 @@ Transit Gateway is ideal for larger, more complex environments where many VPCs o
 
 Go Lab to understand better 
 
+![TGW_1](https://github.com/user-attachments/assets/193252e3-acaa-4ef3-a58f-8e8809ad45b7)
+![TGW](https://github.com/user-attachments/assets/2f4326bf-f2f1-40e3-b366-87c73ea66af2)
+
 ## CLASS - 10##
 **Cost-Saving Strategies and Instance Types Explained**
 
@@ -163,5 +166,4 @@ done
 
 
 
-![TGW_1](https://github.com/user-attachments/assets/193252e3-acaa-4ef3-a58f-8e8809ad45b7)
-![TGW](https://github.com/user-attachments/assets/2f4326bf-f2f1-40e3-b366-87c73ea66af2)
+
