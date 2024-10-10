@@ -135,12 +135,12 @@ Go Lab to understand better
 **Cost-Saving Strategies and Instance Types Explained**
 
 Instance types
-
+```
 1.OnDemand Instance
 2.Reserved Instance
 3.Spot Instance
 4.Launch Template
-
+```
 ```
 #!/bin/bash
 yum update -y
