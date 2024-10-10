@@ -141,6 +141,7 @@ Instance types
 3.Spot Instance
 4.Launch Template
 ```
+
 ```
 #!/bin/bash
 yum update -y
