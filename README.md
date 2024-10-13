@@ -183,9 +183,9 @@ sudo mkfs -t ext4 /dev/xvdf
 sudo mkdir /mnt/ebs-volume
 sudo mount /dev/xvdf /mnt/ebs-volume
 df -h
-sudo blkid /dev/xvdf
+sudo blkid /dev/xvdf --> To get uuid
 sudo vi /etc/fstab
-UUID=<uuid> /mnt/ebs-volume ext4 defaults,nofail 0 2
+UUID=<uuid> /mnt/ebs-volume ext4 defaults,nofail 0 2 --> Add this in the /etc/fstab
 
 ```
 
