@@ -209,3 +209,5 @@ UUID=<uuid> /mnt/ebs-volume ext4 defaults,nofail 0 2 --> Add this in the /etc/fs
 
 ## CLASS - 15##
 **Route53 policies**
+![R53policies](https://github.com/user-attachments/assets/ae1ca735-ba35-4de1-9212-3ab2c2de3353)
+
