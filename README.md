@@ -207,4 +207,5 @@ UUID=<uuid> /mnt/ebs-volume ext4 defaults,nofail 0 2 --> Add this in the /etc/fs
 ![ASG](https://github.com/user-attachments/assets/189a5f02-d353-4ed4-992b-aee4d22ac6f9)
 
 
-
+## CLASS - 15##
+**Route53 policies**
