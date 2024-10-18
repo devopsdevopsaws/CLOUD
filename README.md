@@ -189,6 +189,13 @@ UUID=<uuid> /mnt/ebs-volume ext4 defaults,nofail 0 2 --> Add this in the /etc/fs
 
 ```
 
+## CLASS - 12##
+**NLB**
 
+## CLASS - 13##
+**ALB**
+
+## CLASS - 14##
+**ASG**
 
 
