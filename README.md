@@ -198,7 +198,8 @@ UUID=<uuid> /mnt/ebs-volume ext4 defaults,nofail 0 2 --> Add this in the /etc/fs
 ## CLASS - 13##
 **ALB**
 
-![ALB](https://github.com/user-attachments/assets/96b00f74-fc9a-4a9f-848f-3adaffd907f2)
+
+![ALB](https://github.com/user-attachments/assets/61d675f5-d1b6-4009-96d1-d52d0b3bec71)
 
 
 ## CLASS - 14##
