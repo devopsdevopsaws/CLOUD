@@ -212,3 +212,16 @@ UUID=<uuid> /mnt/ebs-volume ext4 defaults,nofail 0 2 --> Add this in the /etc/fs
 **Route53 policies**
 ![R53policies](https://github.com/user-attachments/assets/ae1ca735-ba35-4de1-9212-3ab2c2de3353)
 
+## CLASS - 17,18,90,20##
+**Complete IAM**
+
+````
+1.create user 
+2.create policy and assign to user and usergroup
+3.create inline policies
+4.create boundary sets
+5.create role
+6.Role switching between master and slave accounts
+7.Create active directory on premise and connect to AWS account via ADconnect
+8.Ceate AWS Managed AD and give acess to guys who wants to achive that task
+````
